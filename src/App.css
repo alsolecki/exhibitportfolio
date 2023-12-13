@@ -207,9 +207,9 @@ footer a {
 
 .parallax__image10 {
   position: absolute;
-  transform: translateZ(-20px) scale(1.25);
-  top: 80%;
-  left: 25%;
+  transform: translateZ(-20px) scale(1.5);
+  top: 75%;
+  left: 15%;
 }
 
 .parallax__image11 {
@@ -289,10 +289,6 @@ footer a {
   transform: translateZ(-20px) scale(1.4);
   top: 1460%;
 }
-
-
-
-
 
 .project-group {
   position: absolute;

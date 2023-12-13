@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectLine from './ProjectLine.jsx';
+
+//IMAGES
 import nshof01 from '/DSC_2628_editlo.jpg'
 import bluegrass02 from '/bluegrass_2 -11_18_08184.jpg'
 import fortmonroe01 from '/fort-monroe-visitor-center_lo.jpg'
@@ -22,9 +24,10 @@ import reynolds01 from '/2016-08-30 13.44.34lo.jpg'
 const Home = () => {
   return (
 
-    //Background images
-
     <div className="parallax">
+
+{/* Background images */}
+
       <img src={bluegrass02} alt="bluegass image" className="parallax__image01" />
       <img src={nshof01} alt="bluegass image" className="parallax__image02" />
       <img src={centralgallery01} alt="bluegass image" className="parallax__image03" />
@@ -45,7 +48,6 @@ const Home = () => {
       <div className="titlebox museums" style={{ top: '0%', fontSize: "2.5rem" }}>
         <h1>Museums</h1>
       </div>
-
 
       <img src={sailing01} alt="sailing image"
         className="parallax__image10"
@@ -104,7 +106,7 @@ const Home = () => {
       </div>
 
 
-      <div className="titlebox education" style={{ top: '420%', fontSize: '2rem' }}>
+      <div className="titlebox education" style={{ top: '410%', fontSize: '2rem', width: '60%' }}>
         <h1>Visitor Centers</h1>
       </div>
 
@@ -133,7 +135,7 @@ const Home = () => {
 
 
 
-      <div className="titlebox education" style={{ top: '790%', fontSize: '2rem' }}>
+      <div className="titlebox education" style={{ top: '770%', fontSize: '2rem', width: '60%' }}>
         <h1>Military History</h1>
       </div>
 
@@ -157,7 +159,11 @@ const Home = () => {
 
 
 
-      <div className="titlebox education" style={{ top: '1130%', fontSize: '2rem' }}>
+      <div className="titlebox education" style={{ 
+        top: '1110%', 
+        fontSize: '2rem',
+        width: '60%'
+        }}>
         <h1>Special Collections</h1>
       </div>
 
@@ -192,7 +198,7 @@ const Home = () => {
         background: 'linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0.8), rgba(0,0,0,0))',
         transform: 'translateZ(-25px) scale(5)',
         position: 'absolute',
-        top: '1420%',
+        top: '1430%',
       }}
       ></div>
       <div className="credits" style={{
@@ -204,7 +210,7 @@ const Home = () => {
         color: 'white',
         transform: 'translateZ(-20px) scale(3)'
       }}>
-        <h5>above projects completed as part of HealyKohler Design</h5>
+        <p>above projects completed as part of HealyKohler Design</p>
       </div>
     </div>
   )
