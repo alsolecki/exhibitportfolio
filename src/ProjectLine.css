@@ -1,0 +1,12 @@
+.projectLine {
+    /* border: yellow 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    padding: 6rem 2rem 6rem 2rem;
+    color: whitesmoke;
+    background: linear-gradient(90deg, rgba(0,0,0,1), rgba(0,0,0,0));
+    background-blend-mode: darken;
+    min-width: 360px;
+    max-width: 600px;
+}

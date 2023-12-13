@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  background: rgb(25, 33, 82);
+  background-image: radial-gradient(rgb(25, 33, 82) 80%, rgb(35, 21, 65));
+  background-size: auto;
+  background-repeat: no-repeat;
+}
