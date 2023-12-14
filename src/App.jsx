@@ -6,16 +6,19 @@ import CourseInfo from './CourseInfo';
 import Header from './Header.jsx';
 import Beyond from './Beyond.jsx';
 import Footer from './footer.jsx'
+import SiteNavBar from './navBar/SiteNavBar.jsx'
 
 function App() {
 
   return (
     <>
+      <SiteNavBar logoHeight="'88px'" />
+
       <div className="bg">
         <div className="v-stripe"></div>
       </div>
-      <div className="title">
-        <h1>Exhibit Design Portfolio</h1>
+      <div className="title" style={{ marginTop: '84px', marginBottom: '4px', color: 'rgba(230, 230, 230, 0.5)'}}>
+        <h3>Exhibit Design Portfolio</h3>
       </div>
 
       <div className="container">

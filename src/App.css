@@ -320,7 +320,7 @@ footer a {
 
 }
 
-@media (min-width: 920px) {
+@media (min-width: 420px) {
 
   header ul {
     display: grid;
