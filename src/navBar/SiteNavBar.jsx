@@ -51,7 +51,7 @@ const SiteNavBar = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="https://alsolecki.com/">Contact</a>
                 </li>
             </ul>
         </nav>

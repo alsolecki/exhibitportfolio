@@ -79,27 +79,24 @@ const Home = () => {
 
 
 
-
-
-
       <div className="project-group" style={{
         transform: 'translateZ(-15px) scale(2.25)',
         top: '160%'
       }}>
 
-        <ProjectLine textColor="yellow" title="The Sailing Museum" location="Newport, RI" />
+        <ProjectLine textColor="var(--alt-title-color)" title="The Sailing Museum" location="Newport, RI" />
 
         <ProjectLine title="International Marathon Center" location="Hopkinton, MA" />
 
-        <ProjectLine textColor="yellow" title="Hollywood in the Heartland" location="The State Historical Museum of Iowa" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Hollywood in the Heartland" location="The State Historical Museum of Iowa" />
 
         <ProjectLine title="First Colony: Our Spanish Origins" location="Florida Museum of Natural History" />
 
-        <ProjectLine textColor="yellow" title="National Soccer Hall of Fame" location="Frisco, TX" />
+        <ProjectLine textColor="var(--alt-title-color)" title="National Soccer Hall of Fame" location="Frisco, TX" />
 
         <ProjectLine title="International Tennis Hall of Fame" location="Newport, RI" />
 
-        <ProjectLine textColor="yellow" title="Bluegrass Music Hall of Fame & Museum" location="Owensboro, KY" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Bluegrass Music Hall of Fame & Museum" location="Owensboro, KY" />
 
         <ProjectLine title="Museum of the American Revolution" location="Philadelphia, PA" />
 
@@ -114,21 +111,21 @@ const Home = () => {
         transform: 'translateZ(-8px) scale(1.65)',
         top: '540%'
       }}>
-        <ProjectLine textColor="yellow" title="Fort Monroe Visitor & Education Center" location="Fort Monroe, VA" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Fort Monroe Visitor & Education Center" location="Fort Monroe, VA" />
 
         <ProjectLine title="Hoh Rainforest Visitor Center" location="Olympic National Park" />
 
-        <ProjectLine textColor="yellow" title="First Landing Trail Center" location="Virginia Beach, VA" />
+        <ProjectLine textColor="var(--alt-title-color)" title="First Landing Trail Center" location="Virginia Beach, VA" />
 
         <ProjectLine title="Washington Monument" location="Washington, DC" />
 
-        <ProjectLine textColor="yellow" title="Becoming Clarksville" location="Customs House & Cultural Center" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Becoming Clarksville" location="Customs House & Cultural Center" />
 
         <ProjectLine title="Washington Crossing State Park Visitor Center & Museum" location="Titusville, NJ" />
 
         <ProjectLine title="Brunswick Byways Visitor Center" location="Lawrenceville, VA" />
 
-        <ProjectLine textColor="yellow" title="Central Gallery" location="Florida Museum of Natural History" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Central Gallery" location="Florida Museum of Natural History" />
 
       </div>
 
@@ -144,13 +141,13 @@ const Home = () => {
         top: '920%'
       }}>
 
-        <ProjectLine textColor="yellow" title="National Purple Heart Hall of Honor" location="New Windsor, NY" />
+        <ProjectLine textColor="var(--alt-title-color)" title="National Purple Heart Hall of Honor" location="New Windsor, NY" />
 
         <ProjectLine title="Fort Defiance Interpretive Center" location="Clarksville, TN" />
 
         <ProjectLine title="4th Infantry Division Museum" location="Fort Carson, CO" />
 
-        <ProjectLine textColor="yellow" title="Vietnam Exhibit at the Hampton Roads Naval Museum" location="Norfolk, VA" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Vietnam Exhibit at the Hampton Roads Naval Museum" location="Norfolk, VA" />
 
         <ProjectLine title="Adams County Historical Society" location="Gettysburg, PA" />
 
@@ -173,7 +170,7 @@ const Home = () => {
       }}>
         <ProjectLine title="Catfish Row Museum" location="Vicksburg, MS" />
 
-        <ProjectLine textColor="yellow" title="Arkansas First Ladies Exhibit" location="Old State House Museum" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Arkansas First Ladies Exhibit" location="Old State House Museum" />
 
         <ProjectLine title="The Civil Rights Act of 1964" location="Library of Congress" />
 
@@ -181,7 +178,7 @@ const Home = () => {
 
         <ProjectLine title="National Hip Hop Hall of Fame" location="New York, NY" />
 
-        <ProjectLine textColor="yellow" title="Duke Energy History Exhibit" location="Charlotte, NC" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Duke Energy History Exhibit" location="Charlotte, NC" />
 
         <ProjectLine title="Walter J. Brown Media Archive & Peabody Collection " location="University of Georgia" />
 
@@ -189,7 +186,7 @@ const Home = () => {
 
         <ProjectLine title="RAGBRAI State Historical Society Museum of Iowa" location="Des Moines, IA" />
 
-        <ProjectLine textColor="yellow" title="Reynolds Coliseum" location="North Carolina State University" />
+        <ProjectLine textColor="var(--alt-title-color)" title="Reynolds Coliseum" location="North Carolina State University" />
       </div>
 
       <div style={{
