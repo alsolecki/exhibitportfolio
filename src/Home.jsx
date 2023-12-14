@@ -185,9 +185,9 @@ const Home = () => {
 
         <ProjectLine title="Walter J. Brown Media Archive & Peabody Collection " location="University of Georgia" />
 
-        <ProjectLine title="National Hip Hop Hall of Fame" location="New York, NY" />
+        <ProjectLine title="Communications Exhibit at Addleston Library" location="College of Charleston, SC" />
 
-        <ProjectLine title="National Hip Hop Hall of Fame" location="New York, NY" />
+        <ProjectLine title="RAGBRAI State Historical Society Museum of Iowa" location="Des Moines, IA" />
 
         <ProjectLine textColor="yellow" title="Reynolds Coliseum" location="North Carolina State University" />
       </div>
