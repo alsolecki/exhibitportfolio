@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <SiteNavBar logoHeight="'88px'" />
-      <div className="background-wrapper" style={{overflowY: 'hidden'}}>
+      <div className="background-wrapper" style={{overflowY: 'hidden', scrollBehavior: 'none'}}>
         <div className="bg">
           <div className="v-stripe"></div>
         </div>
