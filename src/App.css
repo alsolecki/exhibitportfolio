@@ -70,7 +70,7 @@ footer a {
   position: absolute;
   bottom: 0;
   left: 25vw;
-  background-color: var(--dark-bg-color);
+  background-color: black;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, .8) 0 0 10px;
   text-align: center;
@@ -88,11 +88,11 @@ footer a {
 
 .container {
   width: 90%;
-  height: 80vh;
+  height: 85vh;
   max-width: 880px;
   margin: 0 auto 0;
   background: black;
-  border-radius: 1rem;
+  
   box-shadow: 0 3px rgba(0, 0, 0, .1);
   overflow: hidden;
   border: var(--dark-bg-color) 4px solid;

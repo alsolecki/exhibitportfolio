@@ -39,7 +39,7 @@ const SiteNavBar = () => {
 
                 <li><Link to="https://alsolecki.com/">Home</Link></li>
 
-                <li><Link to="https://solecki-exhibit-portfolio.netlify.app/">Exhibits</Link></li>
+                <li style={{ backgroundColor: 'rgb(203, 221, 62)'}}><Link to="https://solecki-exhibit-portfolio.netlify.app/">Exhibits</Link></li>
 
                 <li
                     onMouseEnter={() => setDevSubMenuOpen(true)}
