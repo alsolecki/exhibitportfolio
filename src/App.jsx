@@ -1,13 +1,26 @@
 import './App.css'
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Routes } from "react-router-dom";
 import Home from './Home.jsx';
 import CourseInfo from './CourseInfo';
 import Header from './Header.jsx';
 import Beyond from './Beyond.jsx';
 import SiteNavBar from './navBar/SiteNavBar.jsx'
+import Projects from './Projects.jsx'
 
 function App() {
+  
+  
+    const [Desktop, setDesktop] = useState(window.innerWidth > 500);
+  
+    const updateMedia = () => {
+      setDesktop(window.innerWidth > 500);
+    };
+  
+    useEffect(() => {
+      window.addEventListener("resize", updateMedia);
+      return () => window.removeEventListener("resize", updateMedia);
+    });
 
   return (
     <>
@@ -23,7 +36,7 @@ function App() {
           <Header />
           <div className="wrapper">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={ !Desktop ? <Projects /> : <Home />} />
               <Route path="courseinfo" element={<CourseInfo />} />
               <Route path="beyond" element={<Beyond />} />
             </Routes>

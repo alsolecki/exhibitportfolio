@@ -137,7 +137,8 @@ footer a {
 }
 
 .render-image,
-.drawing-image {
+.drawing-image,
+.project-image {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -327,7 +328,7 @@ footer a {
       justify-content: center;
     }
   .container {
-    height: 75vh;
+    height: 80vh;
   }
 
   }
